@@ -5,7 +5,7 @@ Particle swarm optimization of an active suspension system which controls the sm
 
 There are two input parameters to the controller the error (er) and error rate (err) where the error is defined as the sprung mass displacement from the set value. The aim of the controller is to minimize the displacement of the chassis.
 
-#Details of files:
+#Program Listing:
    1. Psom.m: Optimizes the three parameters (A,B,C) of the active suspension system according to particle swarm optimization                and displays the final result along with a plot of the fitness function over iterations. 
    2. Suspension.fis: Defines the rules for the fuzzy controller.
    3. parameters.m: Final optimal values of the controller.
